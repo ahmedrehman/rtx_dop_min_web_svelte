@@ -1,0 +1,17 @@
+@import '@fontsource/fira-mono';
+
+
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+/* either this or in plugins not both
+@plugin "daisyui" { 
+    prefix: "dy-";
+  }*/
+  
