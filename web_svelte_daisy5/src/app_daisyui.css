@@ -1,0 +1,53 @@
+@import '@fontsource/fira-mono';
+
+/*@import "./lib/styles/w3.css"; *//* must first */
+
+
+@import "tailwindcss" prefix(tw);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+
+/* @theme {
+    --font-sans:  "Inter", Verdana, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+    --font-serif: "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
+  
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  }
+  */
+  /* fix w3.css font issue */
+  /*
+  @layer base {
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: var(--tw-font-sans) !important;
+      font-weight: inherit;
+      font-size: inherit;
+    }
+  } */
+  
+  
+  /* either this or in plugins not both  */
+  @plugin "daisyui" { 
+      prefix: "dy-";
+      
+      themes: light --default, dark --prefersdark, cupcake, bumblebee, emerald,
+      synthwave, halloween, forest, aqua,  pastel, fantasy,
+       luxury, dracula, cmyk, autumn, business,corporate,  acid,
+      lemonade, night, coffee, winter , lofi,wireframe;
+  
+       styled: true,
+       base: true,  /* dont change HTML defaults */
+       utils: true,
+      /*  themes: ['light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate', 'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden', 'forest', 'aqua'],
+       
+        themes: all,  // ['light', 'dark'],
+  */
+  }
+    

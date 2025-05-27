@@ -1,10 +1,15 @@
 # stack:   Svelte Tailwind + Daisy
 - Svelte
 - Tailwindcss
-- Tailwindcss Forms
-- DaisyUI  (kind of bootstrap)
-- Skeleton (antothe UI Components like Daisy)
-- maybe add w3css for fun
+- Tailwindcss Forms   no prefix 
+- DaisyUI  (kind of bootstrap)  prefix   - maybe add w3css for fun   prefix
+
+- shadcn svelte   prefix components by importing by name
+- ? SvelteUI  interresting
+- ? preline
+
+- ?? Skeleton (antothe UI Components like Daisy)
+
 
 ```
 npm add -D @types/node

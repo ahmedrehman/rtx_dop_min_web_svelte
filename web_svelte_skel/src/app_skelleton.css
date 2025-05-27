@@ -1,0 +1,13 @@
+@import '@fontsource/fira-mono';
+
+/*@import "./lib/styles/w3.css"; *//* must first */
+
+ 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+ 
+ 

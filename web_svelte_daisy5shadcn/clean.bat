@@ -1,0 +1,1 @@
+npx rimraf .svelte-kit build node_modules  package-lock.json
